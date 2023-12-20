@@ -52,10 +52,10 @@ Api creado para registro de tipo de cambio, H2 para BD, CRUD JPA, documentación
     **Ejemplo de código para crear un nuevo usuario**
     ```
        {
-       "firstName": "Carlos",
-       "lastName": "Gutierrez",
-       "email": "carlos@gmail.com",
-       "password": "123456"
+          "firstName": "Carlos",
+          "lastName": "Gutierrez",
+          "email": "carlos@gmail.com",
+          "password": "123456"
        }
     ```
 6. Luego ingresar el Token JWT del resultado, en Authorization (Bearer Token), luego pegar el token en el input:
